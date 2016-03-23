@@ -7,7 +7,8 @@ import colorchen.com.b_observer.base.SubjectFather;
 
 /**
  * 主题的实现类（管理观察者的类）
- * Created by color on 16/3/23 09:15.
+ * Created by color chen on 16/3/23 17:55.
+ * @gitHub:www.github.com/colorchenvip
  */
 public class WeatherData implements SubjectFather {
 

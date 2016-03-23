@@ -4,7 +4,9 @@ package colorchen.com.a_duck;
 import colorchen.com.a_duck.base.Duck;
 
 /**
- * Created by color on 16/3/16 19:04.
+ * 鸭子的实现类
+ * Created by color chen on 16/3/23 17:55.
+ * @gitHub:www.github.com/colorchenvip
  */
 public class DuckModel extends Duck {
     public DuckModel() {
