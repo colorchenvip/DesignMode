@@ -6,6 +6,6 @@ package colorchen.com.a_duck;
 public class SpeakSou implements SpeakBehavior {
     @Override
     public void speak() {
-        System.out.printf("搜搜。。。\n");
+        System.out.printf("搜搜...\n");
     }
 }
