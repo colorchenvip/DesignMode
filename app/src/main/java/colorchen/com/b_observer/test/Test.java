@@ -3,6 +3,7 @@ package colorchen.com.b_observer.test;
 import colorchen.com.b_observer.CurrentConditionDisplay;
 import colorchen.com.b_observer.WeatherData;
 
+
 /**
  * Created by color on 16/3/23 14:52.
  */
