@@ -12,10 +12,10 @@ import colorchen.com.b_observer.base.SubjectFather;
  */
 public class WeatherData implements SubjectFather {
 
-    private ArrayList<ObserverFather> observers;
-    private float temperature;
-    private float humidity;
-    private float pressure;
+    private ArrayList<ObserverFather> observers;//观察者队列
+    private float temperature;//温度
+    private float humidity;//湿度
+    private float pressure;//压力
 
     public WeatherData(){
         observers = new ArrayList();
@@ -49,6 +49,12 @@ public class WeatherData implements SubjectFather {
         notifyObserver();
     }
 
+    /**
+     * 设置要更新的参数
+     * @param temperature
+     * @param humidity
+     * @param pressure
+     */
     public void setMeasurements(float temperature,float humidity,float pressure){
         this.temperature = temperature;
         this.humidity = humidity;
